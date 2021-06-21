@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/search/search",
+    "pages/profile/profile"
+  ],
+  "window":{
+    "backgroundColor": "#ccc",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "Puppy Dog Pictures",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "list": [
+      {
+        "text": "推荐",
+        "iconPath": "image/index.png",
+        "selectedIconPath": "image/index.png",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "搜索",
+        "iconPath": "image/search.png",
+        "selectedIconPath": "image/search.png",
+        "pagePath": "pages/search/search"
+      },
+      {
+        "text": "我",
+        "iconPath": "image/mine.png",
+        "selectedIconPath": "image/mine.png",
+        "pagePath": "pages/profile/profile"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

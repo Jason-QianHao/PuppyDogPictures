@@ -1,0 +1,23 @@
+.content{
+  background-color: #0a0a0a;
+  min-height: 100%;
+}
+.item{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #ccc;
+  margin: 5px 3px;
+  box-shadow: 0 2px 5px #ccc;
+}
+.item-info{
+  padding-left: 20px;
+}
+.desc{
+  color: #ccc;
+  font-size: large;
+  text-align: center;
+}
+.tip{
+  color: rgb(236, 17, 17);
+  text-align: center;
+}

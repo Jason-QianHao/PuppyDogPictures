@@ -1,0 +1,14 @@
+<view class="content">
+    <view>
+        你可以随机生成你喜欢的几幅图片～
+    </view>
+    <view class="search">
+        <input class="input" placeholder="输入生成图片的数量" bindinput="bindKeyInput" bindblur="bindBlur"
+        bindfocus="bindFocus"/>
+    </view>
+    <text class="inputShow">{{inputVal}}</text>
+</view>
+<view>
+    <import src="../template/listOfItem.wxml"/>
+    <template is="itemList" data="{{imageUrls}}"/>
+</view>

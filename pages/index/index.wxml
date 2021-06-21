@@ -1,0 +1,6 @@
+<view class="content">
+    <view class="desc">你喜欢的dog图片，这里都有</view>
+    <view class="tip">(体验版，需右上角打开调试模式才能正常使用哦～)</view>
+    <import src="../template/listOfItem.wxml"/>
+    <template is="itemList" data="{{imageUrls}}"/>
+</view>
