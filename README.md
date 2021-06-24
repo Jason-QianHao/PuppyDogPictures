@@ -4,6 +4,8 @@
 
 ​	利用[api](https://shibe.online)随机生成狗狗图片的微信小程序，简单的微信小程序上手项目～
 
+​	对应博客地址：[这里](https://jason-qianhao.github.io/_posts/2021-06-21-微信小程序入门之PuppyDogPitures/)
+
 ## 系统设计
 
 ​	小程序有3个页面：
